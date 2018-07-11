@@ -16,7 +16,7 @@ public class StringCalculator {
 	}
 
 	public String NoOperationZeroCases(String checkEquation){
-		if(checkEquation == null || checkEquation.isEmpty() || !Character.isDigit(checkEquation.charAt(0)))
+		if(checkEquation == null || checkEquation.isEmpty())
 			checkEquation="0";
 		return checkEquation;
 	}
